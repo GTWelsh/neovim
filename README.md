@@ -4,15 +4,21 @@
 
 ### Required
 
+```powershell
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+```
 
 ### Optional but recommended
 
+```powershell
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+```
 
 ## Install my nvim config from GIT
 
+```powershell
 git clone https://github.com/GTWelsh/neovim $env:LOCALAPPDATA\nvim
+```
 
 # Based on 💤 LazyVim
 
