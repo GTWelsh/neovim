@@ -17,3 +17,4 @@ opt.scrolloff = 10
 opt.shiftwidth = 4
 opt.tabstop = 4
 vim.g.autoformat = false
+vim.g.snacks_animate = false
