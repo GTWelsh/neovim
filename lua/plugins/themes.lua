@@ -25,9 +25,24 @@ return {
         end
     },
     {
+        "marko-cerovac/material.nvim",
+        priority = 1000,
+        config = function ()
+            --vim.g.material_style = "darker"
+            --vim.g.material_style = "lighter"
+            vim.g.material_style = "oceanic"
+            --vim.g.material_style = "palenight"
+            --vim.g.material_style = "deep ocean"
+        end
+    },
+    {
+        "comfysage/evergarden",
+        priority = 1000,
+    },
+    {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "moonfly",
+            colorscheme = "material",
         }
     }
 }
