@@ -1,6 +1,6 @@
 return {
     -- auto pairs
     {
-        "echasnovski/mini.pairs", enabled = false
+        "echasnovski/mini.pairs", enabled = true
     }
 }
